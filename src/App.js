@@ -1,16 +1,26 @@
-import Background from './components/Background/Background';
-import Content from './components/Content/Content';
-import Header from './components/Header/Header';
+import './Box.css'
 
 function App() {
   return (
     <div className='App'>
-      <Background>
-        <>
-          <Header />
-          <Content>This is content</Content>
-        </>
-      </Background>
+      <div className="Back">
+        <h1>Bari</h1>
+        <div className='out'>
+          <div className='outcon'>
+          <div className="Content">
+            <div className='tab'>
+            <h1 className='text'>Creative People</h1>
+            <p className='text'></p>
+            <p className='text'></p>
+            <button className='text'>Scroll</button>
+            </div>
+          </div>
+          </div>
+          <h2>About me</h2>
+          <p>acbd</p>
+        </div>
+      </div>
+
     </div>
   );
 }
